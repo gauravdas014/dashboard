@@ -2,10 +2,14 @@ import React from "react";
 
 import "./dashboard-main-two.styles.scss";
 
+import CardNotes from "../card-notes/card-notes.component"
+import CardResults from "../card-results/card-results.component"
+
 const DashboardMainTwo = () => {
     return (
         <div className="dashboard-main-two">
-            Dashboard Main Two
+            <CardNotes />
+            <CardResults />
         </div>
     )
 }
