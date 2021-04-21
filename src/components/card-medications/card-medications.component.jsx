@@ -4,7 +4,7 @@ import "./card-medications.styles.scss"
 const CardMedications = () => {
     return (
         <div className="card-medications">
-            Card Medication
+            {/* Card Medication */}
         </div>
     )
 }

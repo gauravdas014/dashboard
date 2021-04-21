@@ -4,7 +4,7 @@ import "./card-vitals.styles.scss"
 const CardVitals = () => {
     return (
         <div>
-            Card Vitals
+            {/* Card Vitals */}
         </div>
     )
 }

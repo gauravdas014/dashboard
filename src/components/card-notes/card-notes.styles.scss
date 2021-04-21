@@ -1,5 +1,13 @@
 .card-notes {
-    height: 100%;
-    width: 50%;
-    background-color: violet;
+    height: 80%;
+    width: 500px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.notes-heading{
+    display: flex;
+    justify-content: space-between;
 }
