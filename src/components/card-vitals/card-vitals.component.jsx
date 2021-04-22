@@ -8,7 +8,7 @@ const CardVitals = () => {
     return (
         <div className="card-vitals">
             <div className="vitals-heading">
-                <p>Lab Results</p>
+                <p>Vitals</p>
                 <p>
                     <HiDotsVertical />
                 </p>
