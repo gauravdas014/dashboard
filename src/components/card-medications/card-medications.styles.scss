@@ -1,5 +1,22 @@
 .card-medications {
-    height: 200px;
-    // background-color: maroon;
-    width: 600px;
+    width: 300px;
+    height: auto;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.medications-heading{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 10px;
+}
+
+.medications-heading p {
+    cursor: pointer;
+}
+.medicines p {
+    margin: 20px 0;
 }

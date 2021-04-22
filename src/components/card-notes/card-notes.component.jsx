@@ -1,4 +1,7 @@
 import React from "react";
+import { HiDotsVertical } from 'react-icons/hi';
+import { IoMdAddCircleOutline } from "react-icons/io"
+
 import "./card-notes.styles.scss"
 
 const CardNotes = () => {
@@ -6,9 +9,11 @@ const CardNotes = () => {
         <div className="card-notes">
             <div className="notes-heading">
                 <p>Notes</p>
-                {/* <p>hii</p> */}
+                <p>
+                    <IoMdAddCircleOutline /> &nbsp; &nbsp;
+                    <HiDotsVertical />
+                </p>
             </div>
-            <br />
             <br />
             <p>06/01/2020</p>
             <p>

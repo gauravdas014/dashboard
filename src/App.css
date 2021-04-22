@@ -4,13 +4,15 @@
 }
 .main-page {
   display: flex;
+  margin: 0 auto;
+  width: 1400px;
 }
 
 .cards-section {
  background-color: #e2e2e2;
  padding: 30px 50px;
- width: 100%;
+ width: 900px;
  display: flex;
  flex-direction: column;
- justify-content: space-between;
+ justify-content: space-evenly;
 }
